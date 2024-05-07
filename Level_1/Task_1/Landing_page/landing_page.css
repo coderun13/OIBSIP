@@ -3,5 +3,45 @@
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    width: 300px;
+    width: 300px; 
 }
+ /* body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        } */
+        .signup-form {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-row-gap: 10px;
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .signup-form h2 {
+            margin-top: 0;
+            text-align: center;
+        }
+        .signup-form input[type=email],
+        .signup-form input[type=password],
+        .signup-form input[type=submit] {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .signup-form input[type=submit] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .signup-form input[type=submit]:hover {
+            background-color: #45a049;
+        }
